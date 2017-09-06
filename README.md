@@ -28,7 +28,7 @@ This project will be implemented with the following technologies:
 - `webpack` to bundle js files.
 
 ### Wireframe
-![Wireframe](./wireframe.jpg)
+![Wireframe](./images/wireframe.jpg)
 
 ### Implementation Timeline
 
