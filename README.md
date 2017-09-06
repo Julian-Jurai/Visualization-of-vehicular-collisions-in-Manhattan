@@ -27,6 +27,8 @@ This project will be implemented with the following technologies:
 - `D3.js` with `HTML5 Baz` for effects rendering,
 - `webpack` to bundle js files.
 
+### Wireframe
+![Wireframe](./wireframe.jpg)
 
 ### Implementation Timeline
 
