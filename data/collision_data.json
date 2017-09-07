@@ -21517,17 +21517,6 @@
   },
   {
     "DATE": "06/15/2017",
-    "TIME": "14:30",
-    "BOROUGH": "MANHATTAN",
-    "LATITUDE": 0,
-    "LONGITUDE": 0,
-    "LOCATION": "(0.0, 0.0)",
-    "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
-    "UNIQUE KEY": 3691402
-  },
-  {
-    "DATE": "06/15/2017",
     "TIME": "15:33",
     "BOROUGH": "MANHATTAN",
     "LATITUDE": 40.78519,
@@ -31898,17 +31887,6 @@
     "NUMBER OF PERSONS KILLED": 0,
     "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
     "UNIQUE KEY": 3667871
-  },
-  {
-    "DATE": "05/11/2017",
-    "TIME": "14:30",
-    "BOROUGH": "MANHATTAN",
-    "LATITUDE": 0,
-    "LONGITUDE": 0,
-    "LOCATION": "(0.0, 0.0)",
-    "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
-    "UNIQUE KEY": 3668399
   },
   {
     "DATE": "05/11/2017",
@@ -50546,17 +50524,6 @@
   },
   {
     "DATE": "03/01/2017",
-    "TIME": "4:45",
-    "BOROUGH": "MANHATTAN",
-    "LATITUDE": 0,
-    "LONGITUDE": 0,
-    "LOCATION": "(0.0, 0.0)",
-    "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
-    "UNIQUE KEY": 3624702
-  },
-  {
-    "DATE": "03/01/2017",
     "TIME": "7:35",
     "BOROUGH": "MANHATTAN",
     "LATITUDE": 40.738197,
@@ -52479,17 +52446,6 @@
     "NUMBER OF PERSONS KILLED": 0,
     "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
     "UNIQUE KEY": 3620099
-  },
-  {
-    "DATE": "02/21/2017",
-    "TIME": "10:15",
-    "BOROUGH": "MANHATTAN",
-    "LATITUDE": 0,
-    "LONGITUDE": 0,
-    "LOCATION": "(0.0, 0.0)",
-    "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
-    "UNIQUE KEY": 3624004
   },
   {
     "DATE": "02/21/2017",
@@ -58796,17 +58752,6 @@
   },
   {
     "DATE": "01/25/2017",
-    "TIME": "1:32",
-    "BOROUGH": "MANHATTAN",
-    "LATITUDE": 0,
-    "LONGITUDE": 0,
-    "LOCATION": "(0.0, 0.0)",
-    "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
-    "UNIQUE KEY": 3604169
-  },
-  {
-    "DATE": "01/25/2017",
     "TIME": "21:30",
     "BOROUGH": "MANHATTAN",
     "LATITUDE": 40.794907,
@@ -58969,17 +58914,6 @@
     "NUMBER OF PERSONS KILLED": 0,
     "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
     "UNIQUE KEY": 3615128
-  },
-  {
-    "DATE": "01/24/2017",
-    "TIME": "16:11",
-    "BOROUGH": "MANHATTAN",
-    "LATITUDE": 0,
-    "LONGITUDE": 0,
-    "LOCATION": "(0.0, 0.0)",
-    "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
-    "UNIQUE KEY": 3604161
   },
   {
     "DATE": "01/24/2017",

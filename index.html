@@ -16,6 +16,7 @@
 
     <script>
     document.addEventListener("DOMContentLoaded", ()=>{
+      //make raidos responsive
       let radios = document.getElementsByTagName("input")
       for (let i = 0; i < radios.length; i++) {
         radios[i].addEventListener("click", (e)=>{
@@ -27,12 +28,22 @@
 
   </head>
   <body>
-    <div>INDEXHTML</div>
-
     <script src="./lib/map.js"></script>
-    <div class="map-container">
-      <div id="map"/>
+
+    <div>
+      <div class="map-components">
+        <div class="map-container">
+          <div id="map"/>
+        </div>
+
+        <div class="legend-container">
+          <div id="legend-scale">
+          </div>
+          <div id="legend">
+          </div>
+        </div>
     </div>
+
 
     <div class="toggle-container">
       <form>
@@ -51,7 +62,7 @@
         <input
         type="radio"
         name="filter"
-        value="Cell Phone (hands-free)"
+        value="Cell Phone"
         /> Cell phone usage
 
         <input

@@ -1063,7 +1063,7 @@
     "LONGITUDE": -73.98713,
     "LOCATION": "(40.765987, -73.98713)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hands-free)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3740346
   },
   {
@@ -3417,7 +3417,7 @@
     "LONGITUDE": -73.99178,
     "LOCATION": "(40.7494, -73.99178)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hands-free)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3734391
   },
   {
@@ -7333,7 +7333,7 @@
     "LONGITUDE": -73.95213,
     "LOCATION": "(40.80886, -73.95213)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hand-held)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3730722
   },
   {
@@ -21517,17 +21517,6 @@
   },
   {
     "DATE": "06/15/2017",
-    "TIME": "14:30",
-    "BOROUGH": "MANHATTAN",
-    "LATITUDE": 0,
-    "LONGITUDE": 0,
-    "LOCATION": "(0.0, 0.0)",
-    "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
-    "UNIQUE KEY": 3691402
-  },
-  {
-    "DATE": "06/15/2017",
     "TIME": "15:33",
     "BOROUGH": "MANHATTAN",
     "LATITUDE": 40.78519,
@@ -27012,7 +27001,7 @@
     "LONGITUDE": -73.97747,
     "LOCATION": "(40.7292, -73.97747)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hand-held)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3679773
   },
   {
@@ -31901,17 +31890,6 @@
   },
   {
     "DATE": "05/11/2017",
-    "TIME": "14:30",
-    "BOROUGH": "MANHATTAN",
-    "LATITUDE": 0,
-    "LONGITUDE": 0,
-    "LOCATION": "(0.0, 0.0)",
-    "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
-    "UNIQUE KEY": 3668399
-  },
-  {
-    "DATE": "05/11/2017",
     "TIME": "15:15",
     "BOROUGH": "MANHATTAN",
     "LATITUDE": 40.810505,
@@ -31929,7 +31907,7 @@
     "LONGITUDE": -73.93584,
     "LOCATION": "(40.826088, -73.93584)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hand-held)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3668175
   },
   {
@@ -37858,7 +37836,7 @@
     "LONGITUDE": -73.93566,
     "LOCATION": "(40.8442, -73.93566)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hands-free)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3654831
   },
   {
@@ -40432,7 +40410,7 @@
     "LONGITUDE": -73.93868,
     "LOCATION": "(40.802666, -73.93868)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hand-held)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3648849
   },
   {
@@ -45481,7 +45459,7 @@
     "LONGITUDE": -73.96061,
     "LOCATION": "(40.76975, -73.96061)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hand-held)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3636588
   },
   {
@@ -48352,7 +48330,7 @@
     "LONGITUDE": -73.9553,
     "LOCATION": "(40.799435, -73.9553)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hand-held)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3629329
   },
   {
@@ -49496,7 +49474,7 @@
     "LONGITUDE": -73.994675,
     "LOCATION": "(40.752686, -73.994675)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hand-held)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3626114
   },
   {
@@ -50543,17 +50521,6 @@
     "NUMBER OF PERSONS KILLED": 0,
     "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
     "UNIQUE KEY": 3624003
-  },
-  {
-    "DATE": "03/01/2017",
-    "TIME": "4:45",
-    "BOROUGH": "MANHATTAN",
-    "LATITUDE": 0,
-    "LONGITUDE": 0,
-    "LOCATION": "(0.0, 0.0)",
-    "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
-    "UNIQUE KEY": 3624702
   },
   {
     "DATE": "03/01/2017",
@@ -52482,17 +52449,6 @@
   },
   {
     "DATE": "02/21/2017",
-    "TIME": "10:15",
-    "BOROUGH": "MANHATTAN",
-    "LATITUDE": 0,
-    "LONGITUDE": 0,
-    "LOCATION": "(0.0, 0.0)",
-    "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
-    "UNIQUE KEY": 3624004
-  },
-  {
-    "DATE": "02/21/2017",
     "TIME": "10:30",
     "BOROUGH": "MANHATTAN",
     "LATITUDE": 40.766876,
@@ -54303,7 +54259,7 @@
     "LONGITUDE": -73.94403,
     "LOCATION": "(40.83778, -73.94403)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hand-held)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3615737
   },
   {
@@ -58796,17 +58752,6 @@
   },
   {
     "DATE": "01/25/2017",
-    "TIME": "1:32",
-    "BOROUGH": "MANHATTAN",
-    "LATITUDE": 0,
-    "LONGITUDE": 0,
-    "LOCATION": "(0.0, 0.0)",
-    "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
-    "UNIQUE KEY": 3604169
-  },
-  {
-    "DATE": "01/25/2017",
     "TIME": "21:30",
     "BOROUGH": "MANHATTAN",
     "LATITUDE": 40.794907,
@@ -58969,17 +58914,6 @@
     "NUMBER OF PERSONS KILLED": 0,
     "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
     "UNIQUE KEY": 3615128
-  },
-  {
-    "DATE": "01/24/2017",
-    "TIME": "16:11",
-    "BOROUGH": "MANHATTAN",
-    "LATITUDE": 0,
-    "LONGITUDE": 0,
-    "LOCATION": "(0.0, 0.0)",
-    "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Driver Inattention/Distraction",
-    "UNIQUE KEY": 3604161
   },
   {
     "DATE": "01/24/2017",
@@ -60980,7 +60914,7 @@
     "LONGITUDE": -73.94171,
     "LOCATION": "(40.7977769, -73.94171)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hands-free)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3600006
   },
   {
@@ -65842,7 +65776,7 @@
     "LONGITUDE": -73.9904588,
     "LOCATION": "(40.7403576, -73.9904588)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hand-held)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3587411
   },
   {
@@ -66964,7 +66898,7 @@
     "LONGITUDE": -73.9913026,
     "LOCATION": "(40.7173813, -73.9913026)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hand-held)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3583164
   },
   {
@@ -83475,7 +83409,7 @@
     "LONGITUDE": -73.9281509,
     "LOCATION": "(40.8518622, -73.9281509)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hand-held)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3551772
   },
   {
@@ -103594,7 +103528,7 @@
     "LONGITUDE": -73.9732091,
     "LOCATION": "(40.7952524, -73.9732091)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hand-held)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3409544
   },
   {
@@ -104331,7 +104265,7 @@
     "LONGITUDE": -73.9871351,
     "LOCATION": "(40.7224697, -73.9871351)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hands-free)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3404546
   },
   {
@@ -113648,7 +113582,7 @@
     "LONGITUDE": -73.996304,
     "LOCATION": "(40.7533873, -73.996304)",
     "NUMBER OF PERSONS KILLED": 0,
-    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone (hands-free)",
+    "CONTRIBUTING FACTOR VEHICLE 1": "Cell Phone",
     "UNIQUE KEY": 3379944
   },
   {
