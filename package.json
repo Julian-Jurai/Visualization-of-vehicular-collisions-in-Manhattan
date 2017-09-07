@@ -1,0 +1,28 @@
+{
+  "name": "vc_data_viz",
+  "version": "1.0.0",
+  "description": "### Background",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "webpack": "^3.5.6"
+  },
+  "devDependencies": {
+    "topojson": "^3.0.2",
+    "webpack": "^3.5.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julian-Jurai/Visualization-of-vehicular-collisions-in-Manhattan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julian-Jurai/Visualization-of-vehicular-collisions-in-Manhattan/issues"
+  },
+  "homepage": "https://github.com/Julian-Jurai/Visualization-of-vehicular-collisions-in-Manhattan#readme"
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    </style>
+
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+    <script src="./lib/data.js"></script>
+    <script src="./data/vc_data.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHSayBIkmLmM29_rzBB89_zJT2SpntneY&libraries=visualization&callback=initMap">
+    </script>
+
+
+    <script>
+    document.addEventListener("DOMContentLoaded", ()=>{
+      let radios = document.getElementsByTagName("input")
+      for (let i = 0; i < radios.length; i++) {
+        radios[i].addEventListener("click", (e)=>{
+          initMap(e.currentTarget.value);
+        })
+      }
+    })
+    </script>
+
+  </head>
+  <body>
+    <div>INDEXHTML</div>
+
+    <script src="./lib/map.js"></script>
+    <div class="map-container">
+      <div id="map"/>
+    </div>
+
+    <div class="toggle-container">
+      <form>
+        <input type="radio"
+         name="filter"
+         value=""
+         checked
+         />All collisions<br>
+
+        <input
+        type="radio"
+        name="filter"
+        value="Driver Inattention/Distraction"
+        />Distracted driver<br>
+
+        <input
+        type="radio"
+        name="filter"
+        value="Cell Phone (hands-free)"
+        /> Cell phone usage
+
+        <input
+        type="radio"
+        name="filter"
+        value="Unsafe Speed"
+        /> Speeding
+
+        <input
+        type="radio"
+        name="filter"
+        value="Fell Asleep"
+        /> Sleeping behind the wheel
+
+      </form>
+    </div>
+
+  </body>
+</html>
