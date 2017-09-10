@@ -1,3 +1,78 @@
+li {
+  list-style: none;
+}
+
+ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+h3 {
+  font-size: 1em;
+  padding: 10px;
+  font-weight: bold;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  background-color: #0E1626;
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 1;
+  border: 2px solid #2C6575;
+  border-radius: 0;
+  min-height: 35px;
+  height: auto;
+  /*-webkit-appearance: none;*/
+  color: #8DC4B8 !important;
+}
+
+
+
+button:hover {
+  background: transparent;
+  background-color: #1a253d;
+}
+
+/*input[type="radio"]{
+  visibility: hidden;
+  width: 0;
+}*/
+
+
+
+
+
+select {
+  cursor: pointer;
+  background: transparent;
+  background-color: #0E1626;
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 2px solid #2C6575;
+  border-radius: 0;
+  height: 34px;
+  /*-webkit-appearance: none;*/
+  color: #8DC4B8 !important;
+}
+
+select:hover {
+  background: transparent;
+  background-color: #1a253d;
+}
+
+body {
+  font-family: arial;
+  background: #1D2C4D;
+  color: #8DC4B8 !important;
+}
+
 :root {
   --gradient: rgba(102, 255, 0, 1),
     rgba(147, 255, 0, 1),
@@ -12,43 +87,171 @@
 }
 
 #map {
-
   height: 100vh;
-  width: 60vw;
+  width: 55vw;
 }
 
 .map-container{
   position: fixed;
   right: 0;
+  border: 2px solid #2C6575;
 }
 
-.map-components{
 
+
+
+
+.button-filter-container {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #2C6575;
+  width: 210px;
+  background-color: #1A3D4C;
+  display: flex;
+  flex-direction: column;
 }
 
-#legend{
+.toggle-container {
+  width: 45vw;
+  background: transparent;
+  border: 2px solid #2C6575;
+  padding: 15px;
 
-  height: 50vh;
-  width: 20px;
+  background-color: rgba(14, 22, 38,0.9);
+  display: flex;
+  flex-direction: row;
+}
+
+.legend-container {
+  position: fixed;
+  top: 13vh;
+  /* left: 92vh; */
+  margin: 10px;
+  z-index: 20;
+  margin-top: 10px;
+  border: 1px solid #2C6575;
+  width: 210px;
+  background-color: #1A3D4C;
+  display: flex;
+  flex-direction: column;
+}
+
+#scale-colors{
+  height: 16vh;
+  width: 15px;
   background: -webkit-linear-gradient(var(--gradient)); /* Safari 5.1 to 6.0 */
   background: -o-linear-gradient(var(--gradient)); /* Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(var(--gradient)); /* Firefox 3.6 to 15 */
   background: linear-gradient(var(--gradient)); /* Standard syntax (must be last) */
 }
 
-.legend-container{
+.scale-container{
   display: flex;
   top: 16vh;
-  right: 51vw;
-  z-index: 1;
-  position: fixed;
+  right: 54vw;
+  /*z-index: 1;*/
+  background: transparent;
+  border: 2px solid #2C6575;
+  /*position: fixed;*/
+  padding: 8px;
+  background-color: rgba(14, 22, 38,0.9);
 }
 
-#legend-scale{
+#scale-values{
+  color: #8DC4B8 !important;
+  font-size: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 10px 0 10px ;
-  background-color: black;
-  color: white;
+  padding: 0 10px 0 5px;
+  background-color: rgba(14, 22, 38,0.9);
+}
+
+#scale-name{
+  transform: rotate(-90deg);
+  font-size: 14px;
+  font-weight: 100;
+  display: flex;
+  width: 31px;
+  justify-content: center;
+  align-items: center;
+}
+
+#scale-description{
+  font-size: 11px;
+  padding-left: 20px;
+  width: 115px;
+  display: flex;
+  align-items: center;
+}
+
+#display-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 7vh;
+  left: 41vw;
+  width: auto;
+  /*z-index: 1;*/
+  border: 2px solid #2C6575;
+  border-top: none;
+  /*position: fixed;*/
+  padding: 8px;
+  background-color: rgba(14, 22, 38,0.9);
+}
+
+.time-lapse-toggles-container {
+  padding-bottom: 10px;
+  background-color: #1A3D4C;
+  border: 2px solid #2C6575;
+  width: 210px;
+  display: flex;
+  justify-content: center;;
+  flex-direction: column;
+}
+
+#select-year{
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 1;
+  border: 2px solid #2C6575;
+  border-radius: 0;
+  min-height: 35px;
+}
+
+
+/*d3*/
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: #8DC4B8 ;
+}
+
+.axis--x path {
+  display: none;
+}
+
+
+.axis line{
+  stroke: #8DC4B8 ;
+}
+
+
+.axis--x path{
+  stroke: #8DC4B8 ;
+}
+.axis--y path{
+  stroke: #8DC4B8 ;
+}
+
+.axis--x text{
+  fill: #8DC4B8 ;
+}
+.axis--y text{
+  fill: #8DC4B8 ;
 }

@@ -9,76 +9,139 @@
     <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
     <script src="./lib/data.js"></script>
     <script src="./data/vc_data.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+
+
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHSayBIkmLmM29_rzBB89_zJT2SpntneY&libraries=visualization&callback=initMap">
     </script>
 
 
     <script>
-    document.addEventListener("DOMContentLoaded", ()=>{
-      //make raidos responsive
-      let radios = document.getElementsByTagName("input")
-      for (let i = 0; i < radios.length; i++) {
-        radios[i].addEventListener("click", (e)=>{
+      document.addEventListener("DOMContentLoaded", ()=>{
+        //make raidos responsive
+        let causationButtons = document.getElementsByClassName("casuation-filter-button")
+        for (let i = 0; i < causationButtons.length; i++) {
+          causationButtons[i].addEventListener("click", (e)=>{
           initMap(e.currentTarget.value);
+          })
+        }
+
+        let dailyTimeLapseButtons = document.getElementsByClassName("daily-time-lapse")
+        dailyTimeLapseButtons[0].addEventListener("click", (e)=>{
+          dailyData();
         })
-      }
-    })
+
+        let casualtyButton = document.getElementsByClassName("casualty-filter-button")
+        casualtyButton[0].addEventListener("click", (e)=>{
+          casualtyData();
+        })
+
+
+        let yearOption = document.getElementById("select-year")
+        yearOption.addEventListener("change", (e)=>{
+          annualData(e.currentTarget.value);
+        })
+        })
+
     </script>
 
   </head>
   <body>
     <script src="./lib/map.js"></script>
 
+
     <div>
-      <div class="map-components">
+
+      <div>
+
         <div class="map-container">
           <div id="map"/>
         </div>
 
         <div class="legend-container">
-          <div id="legend-scale">
+
+          <div class="scale-container">
+            <div id="scale-name"></div>
+            <div id="scale-values"></div>
+            <div id="scale-colors"></div>
+            <div id="scale-description">
+              The scale gives an indication of the number of incidents
+              that occured where frequency increases as
+              it graduates from green to red.
+            </div>
           </div>
-          <div id="legend">
-          </div>
+
+          <div id="display-text"></div>
         </div>
-    </div>
+
+      </div>
 
 
     <div class="toggle-container">
-      <form>
-        <input type="radio"
-         name="filter"
-         value=""
-         checked
-         />All collisions<br>
+      <div>
+        <div  class= "time-lapse-toggles-container">
+          <h3>Time Lapse</h3>
+          <select id="select-year">
+            <option selected disabled> Select Year </option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+          </select>
 
-        <input
-        type="radio"
-        name="filter"
-        value="Driver Inattention/Distraction"
-        />Distracted driver<br>
+          <button
+          checked
+          class="daily-time-lapse"
+          type="button"
+          name="timelapseeee"
+          value=""
+          />Average Collision Locations Over 24 Hour Period
+        </div>
 
-        <input
-        type="radio"
-        name="filter"
-        value="Cell Phone"
-        /> Cell phone usage
+        <div class= "button-filter-container">
+          <h3>Filter by:</h3>
+          <button
+          class="casuation-filter-button"
+          type="button"
+          name="filter"
+          value="Driver Inattention/Distraction"
+          />Driver Inattention
 
-        <input
-        type="radio"
-        name="filter"
-        value="Unsafe Speed"
-        /> Speeding
+          <button
+          type="button"
+          class="casuation-filter-button"
+          name="filter"
+          value="Cell Phone"
+          /> Cell Phone Related
 
-        <input
-        type="radio"
-        name="filter"
-        value="Fell Asleep"
-        /> Sleeping behind the wheel
+          <button
+          type="button"
+          class="casuation-filter-button"
+          name="filter"
+          value="Unsafe Speed"
+          /> Speeding
 
-      </form>
+          <button
+          type="button"
+          class="casuation-filter-button"
+          name="filter"
+          value="Fell Asleep"
+          />Falling Asleep While Driving
+
+          <button
+          class="casualty-filter-button"
+          type="button"
+          name="filter"
+          value=""
+          />Casualty Zones
+        </div>
+      </div>
+        <svg width="500" height="400"></svg>
     </div>
 
+
+    <script src="./lib/chart.js"></script>
   </body>
 </html>
