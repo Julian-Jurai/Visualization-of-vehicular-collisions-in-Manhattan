@@ -24,16 +24,19 @@
         for (let i = 0; i < causationButtons.length; i++) {
           causationButtons[i].addEventListener("click", (e)=>{
           initMap(e.currentTarget.value);
+          renderBarChart("causation");
           })
         }
 
         let dailyTimeLapseButtons = document.getElementsByClassName("daily-time-lapse")
         dailyTimeLapseButtons[0].addEventListener("click", (e)=>{
           dailyData();
+          renderBarChart("daily");
         })
 
         let casualtyButton = document.getElementsByClassName("casualty-filter-button")
         casualtyButton[0].addEventListener("click", (e)=>{
+          renderBarChart("causation");
           casualtyData();
         })
 
@@ -41,6 +44,7 @@
         let yearOption = document.getElementById("select-year")
         yearOption.addEventListener("change", (e)=>{
           annualData(e.currentTarget.value);
+          renderBarChart("yearly");
         })
         })
 
@@ -138,7 +142,7 @@
           />Casualty Zones
         </div>
       </div>
-        <svg width="500" height="400"></svg>
+        <svg id="chart" width="500" height="450"></svg>
     </div>
 
 
