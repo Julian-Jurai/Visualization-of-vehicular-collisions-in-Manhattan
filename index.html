@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Collision Data Vis</title>
+    <title>VC Data Vis</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
@@ -51,6 +51,9 @@
 
 
         let yearOption = document.getElementById("select-year")
+        yearOption.addEventListener("click", (e)=>{
+          document.getElementById("summary").className = "hidden"
+        })
         yearOption.addEventListener("change", (e)=>{
           annualData(e.currentTarget.value);
           renderBarChart("yearly");
@@ -69,19 +72,19 @@
       <div>
         <div class="map-container">
           <div id="map"></div>
-        </div>
-        <div class="legend-container">
-          <div class="scale-container">
-            <div id="scale-name"></div>
-            <div id="scale-values"></div>
-            <div id="scale-colors"></div>
-            <div id="scale-description">
-              The scale gives an indication of the number of incidents
-              that occured where frequency increases as
-              it graduates from green to red.
+          <div class="legend-container">
+            <div class="scale-container">
+              <div id="scale-name"></div>
+              <div id="scale-values"></div>
+              <div id="scale-colors"></div>
+              <div id="scale-description">
+                The scale gives an indication of the number of incidents
+                that occured where frequency increases as
+                it graduates from green to red.
+              </div>
             </div>
+            <div id="display-text"></div>
           </div>
-          <div id="display-text"></div>
         </div>
       </div>
 

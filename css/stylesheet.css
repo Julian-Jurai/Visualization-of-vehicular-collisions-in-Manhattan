@@ -165,13 +165,12 @@ body {
 
 .legend-container {
   position: fixed;
-  top: 13vh;
   margin: 10px;
   z-index: 20;
   position: fixed;
-  left: 46vw;
+  /*left: 46vw;*/
   top: 15vh;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   border: 1px solid #2C6575;
   width: 210px;
   background-color: #1A3D4C;
@@ -179,14 +178,10 @@ body {
   flex-direction: column;
 }
 
-/*.legend-container {
-  position: absolute;
-  left: 47vw;
-    top: 15vh;
-}*/
+
 
 #scale-colors{
-  height: 16vh;
+  /*height: 16vh;*/
   width: 15px;
   background: -webkit-linear-gradient(var(--gradient)); /* Safari 5.1 to 6.0 */
   background: -o-linear-gradient(var(--gradient)); /* Opera 11.1 to 12.0 */
