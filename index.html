@@ -22,7 +22,8 @@
         let buttons = document.getElementsByTagName("button");
         for (let i = 0; i < buttons.length; i++) {
           buttons[i].addEventListener("click", (e)=>{
-            document.getElementById("summary").className = "hidden"
+                document.getElementById("summary").className = "hidden"
+        document.getElementById("chart-div").classList.remove("hidden")
           })
         }
 
@@ -155,8 +156,13 @@
             />Casualty Zones
           </div>
         </div>
-
-        <svg id="chart" width="500" height="450"></svg>
+        <div id="chart-div" class="hidden chart-container">
+          <svg id="chart" width="500" height="450" >
+          </svg>
+          <h6 id="chart-label">
+            This is my graph description it should not be too long but oh what the hell
+          </h6>
+        </div>
         <p id="summary">
           The purpose of this demonstration is to share some insight on vehicular accidents that occured in the Borough of Manhattan, by means of data visualization.
         <br/>

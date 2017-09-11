@@ -286,8 +286,24 @@ body {
 #summary{
   line-height: 2;
   font-size: 1.1em;
-  padding-right: 50px;
+  padding: 50px;
 }
+
+.chart-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1em;
+  width: 700px;
+}
+
+#chart-div h6 {
+  overflow-wrap: break-word;
+  letter-spacing: 1px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
 
 .hidden{
   display: none;
