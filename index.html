@@ -5,7 +5,7 @@
     <title></title>
     <style>
     </style>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
     <script src="./lib/data.js"></script>
     <script src="./data/vc_data.js"></script>
@@ -19,6 +19,14 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", ()=>{
+
+        let buttons = document.getElementsByTagName("button");
+        for (let i = 0; i < buttons.length; i++) {
+          buttons[i].addEventListener("click", (e)=>{
+            document.getElementById("summary").className = "hidden"
+          })
+        }
+
         //make raidos responsive
         let causationButtons = document.getElementsByClassName("casuation-filter-button")
         for (let i = 0; i < causationButtons.length; i++) {
@@ -41,6 +49,8 @@
         })
 
 
+
+
         let yearOption = document.getElementById("select-year")
         yearOption.addEventListener("change", (e)=>{
           annualData(e.currentTarget.value);
@@ -58,7 +68,6 @@
     <div>
 
       <div>
-
         <div class="map-container">
           <div id="map"/>
         </div>
@@ -83,67 +92,101 @@
 
 
     <div class="toggle-container">
-      <div>
-        <div  class= "time-lapse-toggles-container">
-          <h3>Time Lapse</h3>
-          <select id="select-year">
-            <option selected disabled> Select Year </option>
-            <option value="2012">2012</option>
-            <option value="2013">2013</option>
-            <option value="2014">2014</option>
-            <option value="2015">2015</option>
-            <option value="2016">2016</option>
-          </select>
 
-          <button
-          checked
-          class="daily-time-lapse"
-          type="button"
-          name="timelapseeee"
-          value=""
-          />Average Collision Locations Over 24 Hour Period
+        <div>
+          <div  class= "time-lapse-toggles-container">
+            <h3>Time Lapse</h3>
+            <select id="select-year">
+              <option selected disabled> Select Year </option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+            </select>
+
+            <button
+            checked
+            class="daily-time-lapse"
+            type="button"
+            name="timelapseeee"
+            value=""
+            />Average Collision Locations Over 24 Hour Period
+          </div>
+
+          <div class= "button-filter-container">
+            <h3>Filter by:</h3>
+            <button
+            class="casuation-filter-button"
+            type="button"
+            name="filter"
+            value="Driver Inattention/Distraction"
+            />Driver Inattention
+
+            <button
+            type="button"
+            class="casuation-filter-button"
+            name="filter"
+            value="Cell Phone"
+            /> Cell Phone Related
+
+            <button
+            type="button"
+            class="casuation-filter-button"
+            name="filter"
+            value="Unsafe Speed"
+            /> Speeding
+
+            <button
+            type="button"
+            class="casuation-filter-button"
+            name="filter"
+            value="Fell Asleep"
+            />Falling Asleep While Driving
+
+            <button
+            class="casualty-filter-button"
+            type="button"
+            name="filter"
+            value=""
+            />Casualty Zones
+          </div>
         </div>
-
-        <div class= "button-filter-container">
-          <h3>Filter by:</h3>
-          <button
-          class="casuation-filter-button"
-          type="button"
-          name="filter"
-          value="Driver Inattention/Distraction"
-          />Driver Inattention
-
-          <button
-          type="button"
-          class="casuation-filter-button"
-          name="filter"
-          value="Cell Phone"
-          /> Cell Phone Related
-
-          <button
-          type="button"
-          class="casuation-filter-button"
-          name="filter"
-          value="Unsafe Speed"
-          /> Speeding
-
-          <button
-          type="button"
-          class="casuation-filter-button"
-          name="filter"
-          value="Fell Asleep"
-          />Falling Asleep While Driving
-
-          <button
-          class="casualty-filter-button"
-          type="button"
-          name="filter"
-          value=""
-          />Casualty Zones
-        </div>
+          <svg id="chart" width="500" height="450"></svg>
+          <p id="summary">
+            The purpose of this demonstration is to share some insight on vehicular accidents that occured in the Borough of Manhattan, by means of data visualization.
+          <br/>
+            This project visually represents the factors that cause these collisions to occur and also on the number of casualties that resulted from these collsions with their respect frequencies.
+          </P>
       </div>
-        <svg id="chart" width="500" height="450"></svg>
-    </div>
+
+      <div class="contact-info">
+        <div class="icons">
+
+
+
+          <a href="https://julian-jurai.github.io/"target="_blank">
+            <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/julian-jurai/" target="_blank">
+            <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
+          </a>
+
+          <a href="https://github.com/Julian-Jurai" target="_blank">
+            <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+          </a>
+
+          <a href="https://angel.co/julian-jurai" target="_blank">
+            <i class="fa fa-angellist fa-4x" aria-hidden="true"></i>
+          </a>
+
+
+
+
+        </div>
+          <p id="email">andrewjurai@gmail.com</p>
+      </div>
 
 
     <script src="./lib/chart.js"></script>

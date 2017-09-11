@@ -7,6 +7,12 @@ ul{
   list-style-type: none;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer
+}
+
 h3 {
   font-size: 1em;
   padding: 10px;
@@ -88,7 +94,7 @@ body {
 
 #map {
   height: 100vh;
-  width: 55vw;
+  width: 45vw;
 }
 
 .map-container{
@@ -96,10 +102,6 @@ body {
   right: 0;
   border: 2px solid #2C6575;
 }
-
-
-
-
 
 .button-filter-container {
   padding-bottom: 10px;
@@ -112,15 +114,27 @@ body {
 }
 
 .toggle-container {
-  width: 45vw;
+  box-sizing: border-box;
+  width: 55vw;
   background: transparent;
   border: 2px solid #2C6575;
   padding: 15px;
-
+  height: 70vh;
   background-color: rgba(14, 22, 38,0.9);
   display: flex;
+  align-items: center;
   flex-direction: row;
 }
+@media (max-width: 2000px) and (min-width: 1300px) {
+    #map {
+      width: 55vw !important;
+    }
+
+    .toggle-container,.contact-info {
+      width: 45vw !important;
+    }
+}
+
 
 .legend-container {
   position: fixed;
@@ -221,8 +235,40 @@ body {
   min-height: 35px;
 }
 
+#summary{
+  line-height: 2;
+  font-size: 1.1em;
+  padding-right: 50px;
+}
 
+.hidden{
+  display: none;
+}
+
+.icons i {
+  padding: 0 10px 0 10px;
+}
+.icons i:hover {
+  color: antiquewhite;
+}
+
+#email{
+  font-size: 22px;
+  letter-spacing: 4px;
+}
+
+.contact-info{
+  display: flex;
+  /*border: 2px solid #2C6575;*/
+  border-top: none;
+  padding-top: 20px;
+  margin-top: 40px;
+  width: 55vw;
+  flex-direction: column;
+  align-items: center;
+}
 /*d3*/
+
 
 .bar {
   fill: steelblue;
