@@ -1,5 +1,7 @@
 ## Visualization of vehicular collisions in Manhattan
 
+ [LIVE](https://julian-jurai.github.io/vehicle-collisions-data-visualization/)
+
 ### Background
 
 As of recently the city's OpenData portal began publishing data that was once difficult to analyze. Over the past 2 years there has been over 100,000 collisions in NYC alone.
