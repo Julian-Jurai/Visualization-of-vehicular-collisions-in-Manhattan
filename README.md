@@ -1,6 +1,6 @@
 ## Visualization of vehicular collisions in Manhattan
 
- [LIVE](http://julian-jurai.github.io/vehicle-collisions-data-visualization/)
+ [LIVE](https://julian-jurai.github.io/vehicle-collisions-data-visualization/)
 
 ### Background
 
