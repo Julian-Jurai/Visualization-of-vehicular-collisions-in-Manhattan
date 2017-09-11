@@ -2,14 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <style>
-    </style>
+    <title>Collision Data Vis</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
-    <script src="./lib/data.js"></script>
-    <script src="./data/vc_data.js"></script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="./lib/data.js"></script>
+    <script type="text/javascript" src="./data/vc_data.js"></script>
+    <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
 
 
     <script async defer
@@ -61,19 +60,17 @@
     </script>
 
   </head>
+
+
   <body>
-    <script src="./lib/map.js"></script>
+    <script type="text/javascript" src="./lib/map.js"></script>
 
-
-    <div>
 
       <div>
         <div class="map-container">
-          <div id="map"/>
+          <div id="map"></div>
         </div>
-
         <div class="legend-container">
-
           <div class="scale-container">
             <div id="scale-name"></div>
             <div id="scale-values"></div>
@@ -84,15 +81,19 @@
               it graduates from green to red.
             </div>
           </div>
-
           <div id="display-text"></div>
         </div>
-
       </div>
 
 
-    <div class="toggle-container">
+    <div class="main-container">
 
+        <div class="title">
+          <h1>Vehicle Collision Data Visualization</h1>
+          <h3>By Julian Jurai</h3>
+        </div>
+
+      <div class="toggle-container">
         <div>
           <div  class= "time-lapse-toggles-container">
             <h3>Time Lapse</h3>
@@ -106,7 +107,6 @@
             </select>
 
             <button
-            checked
             class="daily-time-lapse"
             type="button"
             name="timelapseeee"
@@ -152,21 +152,20 @@
             />Casualty Zones
           </div>
         </div>
-          <svg id="chart" width="500" height="450"></svg>
-          <p id="summary">
-            The purpose of this demonstration is to share some insight on vehicular accidents that occured in the Borough of Manhattan, by means of data visualization.
-          <br/>
-            This project visually represents the factors that cause these collisions to occur and also on the number of casualties that resulted from these collsions with their respect frequencies.
-          </P>
+
+        <svg id="chart" width="500" height="450"></svg>
+        <p id="summary">
+          The purpose of this demonstration is to share some insight on vehicular accidents that occured in the Borough of Manhattan, by means of data visualization.
+        <br/>
+          This project visually represents the factors that cause these collisions to occur and also on the number of casualties that resulted from these collsions with their respect frequencies.
+        </p>
       </div>
+    </div>
 
       <div class="contact-info">
         <div class="icons">
-
-
-
-          <a href="https://julian-jurai.github.io/"target="_blank">
-            <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>
+          <a href="https://julian-jurai.github.io/" target="_blank"
+          ><i class="fa fa-laptop fa-4x" aria-hidden="true"></i>
           </a>
 
           <a href="https://www.linkedin.com/in/julian-jurai/" target="_blank">
@@ -180,10 +179,6 @@
           <a href="https://angel.co/julian-jurai" target="_blank">
             <i class="fa fa-angellist fa-4x" aria-hidden="true"></i>
           </a>
-
-
-
-
         </div>
           <p id="email">andrewjurai@gmail.com</p>
       </div>
@@ -191,4 +186,5 @@
 
     <script src="./lib/chart.js"></script>
   </body>
+
 </html>
