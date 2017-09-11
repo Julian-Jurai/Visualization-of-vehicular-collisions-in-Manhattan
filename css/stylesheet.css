@@ -163,24 +163,6 @@ body {
   font-size: 1.7em;
 }
 
-
-
-@media (max-width: 2000px) and (min-width: 1300px) {
-    #map {
-      width: 55vw !important;
-    }
-
-    .toggle-container {
-      width: 45vw !important;
-      height: 30vw;
-    }
-}
-    .contact-info {
-      width: 45vw !important;
-    }
-}
-
-
 .legend-container {
   position: fixed;
   top: 13vh;
@@ -266,6 +248,24 @@ body {
   padding: 8px;
   background-color: rgba(14, 22, 38,0.9);
 }
+
+@media (max-width: 2000px) and (min-width: 1300px) {
+    #map {
+      width: 55vw !important;
+    }
+
+    .toggle-container {
+      width: 45vw !important;
+      height: 30vw;
+    }
+
+    .contact-info {
+      width: 45vw !important;
+    }
+}
+
+
+
 
 .time-lapse-toggles-container {
   padding-bottom: 10px;
