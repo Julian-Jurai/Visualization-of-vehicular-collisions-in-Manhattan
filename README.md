@@ -12,13 +12,10 @@ This project involves utilizing data provided by the NYPD to give some insight o
 
 With this app, users will be able to:
 
-- [ ] Identify locations where accidents have occured
+- [ ] Identify locations where accidents have occured and the frequency at which they occur
 - [ ] Differentiate between causations
+- [ ] Identify areas where casualties have occured in the past
 - [ ] Visualize the frequency of the collisions
-
-In addition, this project will include:
-
-- [ ] A production README
 
 
 ### Architecture and Technologies
@@ -26,19 +23,5 @@ In addition, this project will include:
 This project will be implemented with the following technologies:
 
 - `JavaScript` for logic,
-- `D3.js` with `HTML5 Baz` for effects rendering,
-- `webpack` to bundle js files.
-
-### Wireframe
-![Wireframe](./images/wireframe.jpg)
-
-### Implementation Timeline
-
-**Day 1**:
- Set up project directory, obtain dataset and filter as necessary, research on D3.js implementation with google Maps API.
-
-**Day 2**:
-  Have a functioning map that displays relevant information from the dataset and complete styling
-
-**Day 3**:
-  Implement selector to toggle between data being displayed
+- `D3.js` with `HTML5` for effects rendering,
+- `Google Maps API` with `Google Visualization API` for effects rendering,
