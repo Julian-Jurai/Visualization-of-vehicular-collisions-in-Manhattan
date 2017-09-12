@@ -115,6 +115,7 @@ body {
 }
 
 .toggle-container {
+  min-width: 600px;
   box-sizing: border-box;
   width: 55vw;
   background: transparent;
@@ -283,7 +284,7 @@ body {
   min-height: 35px;
 }
 
-#summary{
+#ry{
   line-height: 2;
   font-size: 1.1em;
   padding: 50px;
