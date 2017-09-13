@@ -230,6 +230,10 @@ body {
   align-items: center;
 }
 
+#summary{
+  margin-left: 30px;
+}
+
 #display-text{
   display: flex;
   flex-direction: column;
