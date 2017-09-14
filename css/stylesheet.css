@@ -115,7 +115,8 @@ body {
 }
 
 .toggle-container {
-  min-width: 600px;
+  min-width: 600px !important;
+  min-height: 570px !important;
   box-sizing: border-box;
   width: 55vw;
   background: transparent;
