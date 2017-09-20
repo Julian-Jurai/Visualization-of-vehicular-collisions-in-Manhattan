@@ -33,6 +33,8 @@ The different controls are:
 - [ ] Casualty Zones - highlights the areas where human casualties have occurred.
 - [ ] Each option causes a graph to be displayed which shows the relationship between the number of accidents and the respective cause
 
+
+### Screenshot
 ![image of app](./images/readme_image.png)
 
 
